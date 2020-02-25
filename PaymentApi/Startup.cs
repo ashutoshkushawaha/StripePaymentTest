@@ -9,6 +9,7 @@ namespace PaymentApi
         public void Configuration(IAppBuilder app)
         {
             ConfigureAuth(app);
+            //startup is changed 
         }
     }
 }
